@@ -1,0 +1,15 @@
+#!/bin/sh 
+
+APP_NAME=beanstalk1
+
+sh ./test2.sh \
+ -b /home/foo/spring-music \
+ -c account_name.saas.appdynamics.com \
+ -K account_access_key \
+ -p 443 \
+ -S true \
+ -r ap-northeast-1 \
+ -a $APP_NAME \
+ -i t2.small \
+ -e $APP_NAME \
+ -s true
